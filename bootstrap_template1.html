@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>templates</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Bootstrap Demo1</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+	<div class="container">
+		<div class="row">
+		<form>
+		  <div class="form-group">
+		    <label for="email">Email address:&nbsp;<span style="color: red">*</span></label>
+		    <input type="email" class="form-control" id="email">
+		  </div>
+		  <div class="form-group">
+		    <label for="pwd">Password:&nbsp;<span style="color: red">*</span></label>
+		    <input type="password" class="form-control" id="pwd">
+		  </div>
+		  <div class="checkbox">
+		    <label><input type="checkbox"> Remember me</label>
+		  </div>
+		  <button type="button"  data-target="#myModal" data-toggle="modal"class="btn btn-success">Submit</button>
+		</form>
+		<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Student record</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>form submitted successfully.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+ 			 </div>
+</div>
+
+		</body>
+	</html>
